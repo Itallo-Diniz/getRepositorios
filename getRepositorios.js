@@ -12,7 +12,7 @@ function buscar() {
         listas.innerHTML = '';
         response.data.forEach(element => {
             var newList = document.createElement('li');
-            var conteudo = element.name + '. Url: ' + element.html_url;
+            var conteudo = element.name + '. Url do repositório: ' + element.html_url;
             var repoName = document.createTextNode(conteudo);
             newList.appendChild(repoName);
             listas.appendChild(newList);
