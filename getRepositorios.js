@@ -1,4 +1,5 @@
 
+//funcao que busca repositorios no github
 function buscar() {
     var user = document.querySelector('input').value;
     var listas = document.querySelector('ul');
